@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T12:13:40.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.1" etag="OWpnJiwWuhLsDzEtjjQ3" type="github"><diagram id="hnKgnSkoYM1Y_T1QRlF2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-01T12:39:03.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="l8DocX3kaq6ff1Cmmkeb" version="20.5.1" type="github">
+  <diagram id="hnKgnSkoYM1Y_T1QRlF2" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="77fx5GsSkRCZnMhRKN3C-1" value="passport_sdk c api&lt;br&gt;bool init&lt;br&gt;void* create()&lt;br&gt;login(void* pObj, )&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77fx5GsSkRCZnMhRKN3C-2" value="class passport&lt;br&gt;login&lt;br&gt;logout&lt;br&gt;..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77fx5GsSkRCZnMhRKN3C-3" value="uv_curl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77fx5GsSkRCZnMhRKN3C-4" value="uv_curl c api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="214" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77fx5GsSkRCZnMhRKN3C-7" value="get&lt;br&gt;post&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77fx5GsSkRCZnMhRKN3C-8" value="event loop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77fx5GsSkRCZnMhRKN3C-9" value="node: return ::newObj(&#39;bilipassport&#39;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="414" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77fx5GsSkRCZnMhRKN3C-11" value="JS&lt;br&gt;const ppt = new bilipassport()&lt;br&gt;ppt.login(, () =&amp;gt; {} )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="550" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77fx5GsSkRCZnMhRKN3C-12" value="c++&lt;br&gt;auto ppt = bilipassport()&lt;br&gt;ppt.login(, []() =&amp;gt; {} )&lt;br&gt;delete ppt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="550" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="77fx5GsSkRCZnMhRKN3C-13" value="class bilipassport" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="414" width="320" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
